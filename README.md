@@ -1,2 +1,5 @@
 # ecommerce
-a simple ecommerce site to showcase store
+A simple one page E-commerce site.
+
+##Test App:
+https://ancient-anchorage-22749.herokuapp.com/
