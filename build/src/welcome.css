@@ -1,0 +1,61 @@
+.welcome{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+.navy{
+    width:100vw;
+    height:10vh;
+    background-color: white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+}
+.navy h2{
+    width:100vw;
+}
+.navy nav{
+    border-radius: 1rem;
+    border: 2.5px solid rgb(26, 139, 83);
+    margin-left:-20vw;
+    width:10vw;
+    height: 3rem;
+    font-size: medium;
+    display:grid;
+    place-items: center;
+
+}
+.former{
+    margin-top: 7.5vh;
+    height:75vh;
+    width: 50vw;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+.former div{
+    width:75%;
+}
+.former div h5{
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+}
+.former p{
+    margin-top:0.25rem;
+    margin-bottom: 0.25rem;
+}
+#but{
+    border:0px;
+    background-color: green;
+    color:white;
+    border-radius: 1rem;
+    height:3rem;
+    width: 5rem;
+    margin-top:1rem;
+    margin-left:10%;
+}

@@ -1,0 +1,65 @@
+.body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#upload{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+.bombom{
+    height:90vh;
+    display:grid;
+    place-items: center;
+}
+.returner{
+    width:100vw;
+    height:10vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.returner button{
+    margin-right:1.5rem;
+    height:3rem;
+    width:5rem;
+    border: 2px solid green;
+    border-radius: 1rem;
+}
+.returner button:hover{
+    background-color: green;
+}
+.filer{
+    margin-left: -2.25rem;
+    width:2.25rem;
+    height:2rem;
+    opacity:0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.shop{
+    border: 2px solid green;
+    border-radius: 1rem;
+}
+.shop:hover{
+    background-color: green;
+}
+.profile{
+    height:10rem;
+    width:10rem;
+    border:2.5px solid grey;
+    border-radius: 100%;
+}
+#idk{
+    width:50%
+}
+.file{
+    font-size: 2rem;
+    margin-left: -2.5rem;
+    margin-top: 7.5rem;
+    cursor: pointer;
+}

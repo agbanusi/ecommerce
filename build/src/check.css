@@ -1,0 +1,109 @@
+.join{
+    width:100vw;
+    display:grid;
+}
+.divide{
+    padding-left:1rem;
+    padding-right:1rem;
+    width:97.5vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.cat{
+    height:90vh;
+    padding-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+.seen{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:85%;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.seen p{
+    width:15rem;
+    overflow:hidden;
+}
+.biggy{
+    height:100px;
+    width:85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    border-radius:1rem;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.showCard{
+    margin-top:2rem;
+    width:85%;
+    height:30vh;
+    border-radius: 1rem;
+    background-color: orange;
+    padding-right: 1rem ;
+    padding-left: 1rem;
+    text-align: center;
+}
+.downer{
+    border: 0px;
+    background-color: black;
+    color: white;
+    width:80%;
+    padding-bottom: 0.25rem;
+    border-bottom: 1.5px solid grey;
+}
+.share{
+    display:flex;
+    width:80%;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.share div{
+    display:grid;
+}
+.finally{
+    margin-left:10%;
+    width:80%;
+    height:3rem;
+    background-color: orange;
+    border:0px;
+    border-radius: 1rem;
+}
+.tie{
+    margin-top:1.5rem;
+    margin-left:-8.5rem;
+}
+.deen{
+    height:5rem;
+    width:5rem;
+}
+.showCard h4{
+    margin-top: 3rem;
+    margin-bottom:0.5rem;
+}
+.mainImp{
+    margin-top:0px;
+    margin-bottom:0.5rem;
+    color:white;
+}
+.last{
+    margin-top:0.5rem;
+    margin-left:-6.5rem;
+}
+.ink{
+    margin-bottom:0.5rem;
+}
